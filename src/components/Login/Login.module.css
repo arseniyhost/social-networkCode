@@ -1,0 +1,26 @@
+.login {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login form div {
+    margin-bottom: 10px;
+}
+
+.login form {
+    margin-top: 20px;
+}
+
+.login form input {
+    padding: 10px;
+    border: none;
+    background: lightskyblue;
+}
+
+.groupError {
+    padding: 5px;
+    color: rgb(194, 34, 34);
+    border: 2px solid red;
+}

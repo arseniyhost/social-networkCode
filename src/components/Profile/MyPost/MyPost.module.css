@@ -1,0 +1,58 @@
+.profilePosts {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilePosts h3 {
+    margin-bottom: 10px;
+}
+
+.createMessage {
+    margin-bottom: 20px;
+}
+
+.postText {
+    width: 450px;
+    height: 70px;
+}
+
+.postText textarea {
+    background: #71A7FF;
+    color: lightblue;
+    font-size: 18px;
+    padding: 10px;
+    width: 450px;
+    height: 70px;
+    transition: .2s all;
+    resize: none;
+}
+
+.postText textarea:focus {
+    color: #fff;
+}
+
+.postBtn {
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #4285F4;
+    font-family: Roboto, sans-serif;
+    border: none;
+    transition: .2s all;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.postBtn:hover {
+    border-radius: 10px;
+    background: #1155F4;
+    
+}
+
+.postContainer {
+    text-align: left;
+}

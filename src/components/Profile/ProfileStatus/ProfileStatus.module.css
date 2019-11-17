@@ -1,0 +1,12 @@
+span span.unStatus {
+    color: rgb(194, 6, 6);
+    opacity: 0.7;
+}
+
+.status span  {
+    color: rgb(27, 14, 14);
+}
+
+.status {
+    display: flex;
+}
